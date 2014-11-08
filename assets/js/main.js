@@ -15,7 +15,7 @@
 		if( $('.map-canvas').length > 0) {
 			
 			var geocoder = new google.maps.Geocoder();
-			var address = '10 Rue Courtois, 93500 Pantin';
+			var address = '32 Rue Blanche, 75002 Paris';
 			var contentString = '<div class="map-detail"><strong>Our Office:</strong><p>' + address + '</p></div>';
 			
 			geocoder.geocode({'address': address }, function(results, status) {
